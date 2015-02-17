@@ -1,0 +1,13 @@
+
+- See if we can use templates for rendering the Alternative phrases, so that if the format needs to be changed it will be easy and fast.
+
+
+--------------
+
+1. Make a list of phrases or words.
+	- Words will have a description.
+	- Words will have alternatives that are not offensive.
+		- Is there a plugin to add visible tags to the documents that i can handle as alternative terms?
+			Identify certain words so they are something different than the others: this way i can work with them in the future if a new requirement is needed.
+	
+2. Add google search to the Wiki.

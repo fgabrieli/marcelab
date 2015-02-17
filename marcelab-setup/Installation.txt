@@ -1,0 +1,66 @@
+Steps to install and configure the Wiki
+
+Server Requirements
+~~~~~~~~~~~~~~~~~~~
+
+- PHP version?
+- Mysql db
+
+Installation and Setup
+~~~~~~~~~~~~~~~~~~~~~~
+
+1) 
+
+Download and install MediaWiki package.
+
+3)
+ 
+Copy all extensions from the extensions/ directory to public_html/extensions
+ 
+For each extension add the next line in the LocalSettings.php file, replacing where it says <extension_name> by the extension name.
+
+require_once "$IP/extensions/<extension_name>/<extension_name>.php";
+ 
+4) 
+ 
+Put the templates/Alternativas.tpl contents into page Template:Alternativas in the Wiki (you will need to create it)
+ 
+5) 
+ 
+Edit the page MediaWiki:Sidebar to set the sidebar contents.
+
+6)
+
+Set in MediaWiki:Common.css
+
+/* El CSS colocado en esta página será aplicado a todas las apariencias */
+
+#p-tb {
+ display: none;
+}
+
+#ca-viewsource {
+ display: none;
+}
+
+#ca-history {
+ display: none;
+}
+
+#footer-poweredbyico {
+ display: none;
+}
+
+#ca-talk {
+ display: none;
+}
+
+#p-search {
+ display: none;
+}
+
+#p-views {
+ display: none;
+}
+
+  

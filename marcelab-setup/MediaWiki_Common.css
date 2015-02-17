@@ -1,0 +1,29 @@
+/* El CSS colocado en esta página será aplicado a todas las apariencias */
+
+#p-tb {
+ display: none;
+}
+
+#ca-viewsource {
+ display: none;
+}
+
+#ca-history {
+ display: none;
+}
+
+#footer-poweredbyico {
+ display: none;
+}
+
+#ca-talk {
+ display: none;
+}
+
+#p-search {
+ display: none;
+}
+
+#ca-view {
+ display: none;
+}
