@@ -144,7 +144,12 @@ require_once "$IP/extensions/Variables/Variables.php";
 
 require_once "$IP/extensions/LoopFunctions/LoopFunctions.php";
 
+require_once "$IP/extensions/google-cse.php";
+
 // enable user js and css
 
 $wgAllowUserJs  = true;
 $wgAllowUserCss  = true;
+
+// logo
+$wgLogo = '/resources/assets/marcelab/logo.png';

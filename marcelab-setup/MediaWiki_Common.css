@@ -27,3 +27,9 @@
 #ca-view {
  display: none;
 }
+
+#p-logo a {
+  background-size: 135px 164px;
+  background-position: center center;
+
+}

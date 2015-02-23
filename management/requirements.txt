@@ -1,4 +1,51 @@
 
+Layout:
+
+- on the right "Cero" logo
+
+
+Hola Fernando! 
+Te llegaron mis mails del otro día?
+
+Con respecto a lo que me preguntaste sobre la sección de navegación de las izquierda, se me ocurre que puede ser :
+
+- Home (se puede diseñar una hombre que tenga un bloque de buscador - tipo Google - y quizás un mini párrafo explicativo)
+
+-El buscador con autocomplete
+
+- Cambios recientes (es decir palabras nuevas agregadas)
+
+- Donaciones (link a la página de donaciones de la página de Cero)
+
+- Notificar un error (formulario con mail,  nombre, termino relacionado al error,  comentario)
+
+- Imprimir / exportar :
+      -Crear un libro
+      - descargar como PDF
+      - Versión para imprimir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - See if we can use templates for rendering the Alternative phrases, so that if the format needs to be changed it will be easy and fast.
 
 
@@ -10,4 +57,4 @@
 		- Is there a plugin to add visible tags to the documents that i can handle as alternative terms?
 			Identify certain words so they are something different than the others: this way i can work with them in the future if a new requirement is needed.
 	
-2. Add google search to the Wiki.
+2. Add google search to the Wiki.*

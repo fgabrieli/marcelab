@@ -29,38 +29,6 @@ Put the templates/Alternativas.tpl contents into page Template:Alternativas in t
  
 Edit the page MediaWiki:Sidebar to set the sidebar contents.
 
-6)
+6) Set MediaWiki_Common.css file contents in /MediaWiki:Common.css page
 
-Set in MediaWiki:Common.css
-
-/* El CSS colocado en esta página será aplicado a todas las apariencias */
-
-#p-tb {
- display: none;
-}
-
-#ca-viewsource {
- display: none;
-}
-
-#ca-history {
- display: none;
-}
-
-#footer-poweredbyico {
- display: none;
-}
-
-#ca-talk {
- display: none;
-}
-
-#p-search {
- display: none;
-}
-
-#p-views {
- display: none;
-}
-
-  
+7) Set MediaWiki_Common.js file contents in /MediaWiki:Common.js page
