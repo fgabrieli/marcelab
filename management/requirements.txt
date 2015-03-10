@@ -1,4 +1,73 @@
 
+
+Set logo.
+
+Change "marcelab" within the code with "delsector".
+
+Make the local env to be exactly the same as the remote env.
+
+Automate updating files through FTP. Do not override equal files, just different ones.
+
+
+
+
+
+
+
+
+------------------------------
+
+
+12.20hs
+
+
+R: Seleccione el sitio ciudad.com.ar para tomar los resultados porque no tenemos aun el nuestro configurado. Cuando eso este solo van a aparecer entradas de la Wiki como vos decias.
+
+
+PENDIENTE: ver si anda al subirlo online : Si el buscador funciona con el autocomplete,  puede ir directo a la entrada correspondiente,  pero si el usuario no lo selecciona,  puede ir a esa página de resultados. 
+
+	- Autocomplete???
+
+R: Estuve revisando el autocomplete para configurarlo correctamente pero no pude hacerlo andar en mi maquina en forma local. Necesitaria el acceso al hosting (sitio definitivo) para instalar la Wiki y probarlo ahi. Intente con lo que me habias pasado pero falta el email para ingresar desde https://delsectorsocial.org:2096/
+	
+
+Lo otro que te quería consultar es que en esa misma página cada resultado trae una imagen. Como te dije prefiero que los resultados se muestren solo como un listado,  pero sí me interesa lo de las imágenes dentro de las definiciones.
+Uno de los proyectos que tenemos es hacer un concurso de fotografía,  asique estaría copado poder agregarlas! Además de algunas campaña quizás gráficas que estén relacionadas. Se podrán embeber videos de YouTube también? 
+
+R: Por lo que veo en los resultados de Google, eligen una de las imagenes de la pagina para mostrar en sus resultados y si es un video el primer fotograma (la imagen inicial). Si queres podemos investigarlo.
+
+Otra consulta,  se podrá achicar un poco el ancho de las páginas?  Que las líneas no sean tan largas. Las líneas largas dificultan la lectura porque tenes que mover la cabeza. Si,  suena exagerado pero te juro que es así!  De costado podemos ponerle otras cosas,  definiciones cortas,  recuadros, organizaciones que en el mundo que trabajen está temática con sus links, la nube de concepto relacionados, listado de las palabras más buscadas...  Podemos pensar alternativas...
+
+R: Claro.
+
+
+Otra cosa,  vos físicamente dónde estás?  Si querés la semana que viene nos podemos juntar para conocernos y ver avances en vivo. Además de que me muestres como se va usando esto!  Jajajaja. La semana que viene,  o la otra,  o cuando a vos te parezca.
+
+R: Estoy en Caballito o en Microcentro, vos?
+
+
+
+
+----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Layout:
 
 - on the right "Cero" logo
