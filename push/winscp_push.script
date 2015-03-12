@@ -1,0 +1,26 @@
+#
+# WinSCP script to push files to delsectorsocial.org
+#
+# Automatically abort script on errors
+option batch abort
+#
+# Disable overwrite confirmations that conflict with the previous
+option confirm off
+#
+# Connect to SFTP server using a password
+open ftp://delsecto:G%7D%2AFfh%2BN3%2Cnr@delsectorsocial.org/
+#
+# Exclude files
+option exclude LocalSettings.php
+#
+# Synchronize
+#
+synchronize remote -delete c:\home\marcelab\public_html /public_html
+#
+# Disconnect
+#
+close
+#
+# Exit
+# 
+exit

@@ -135,21 +135,5 @@ require_once "$IP/skins/Vector/Vector.php";
 # End of automatically generated settings.
 # Add more configuration options below.
 
-# marcelab extensions
-// require_once __DIR__ . "/extensions/Example/Example.php";
-
-require_once "$IP/extensions/Loops/Loops.php";
-
-require_once "$IP/extensions/Variables/Variables.php";
-
-require_once "$IP/extensions/LoopFunctions/LoopFunctions.php";
-
-require_once "$IP/extensions/google-cse.php";
-
-// enable user js and css
-
-$wgAllowUserJs  = true;
-$wgAllowUserCss  = true;
-
-// logo
-$wgLogo = '/resources/assets/marcelab/logo.png';
+# delsectorsocial.org configuration
+require_once 'LocalSettingsDelSector.php';

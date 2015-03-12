@@ -66,6 +66,7 @@ $GLOBALS['wgResourceModules']['skins.vector.styles'] = array(
 	'styles' => array(
 		'screen.less' => array( 'media' => 'screen' ),
 		'screen-hd.less' => array( 'media' => 'screen and (min-width: 982px)' ),
+	  'delsector-desktop.css' => array('media' => 'screen and (min-width: 1024px)')
 	),
 	'remoteSkinPath' => 'Vector',
 	'localBasePath' => __DIR__,
