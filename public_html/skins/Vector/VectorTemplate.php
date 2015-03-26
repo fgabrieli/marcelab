@@ -195,6 +195,9 @@ class VectorTemplate extends BaseTemplate {
 					echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) )
 					?>></a></div>
 				<?php $this->renderPortals( $this->data['sidebar'] ); ?>
+				
+				<?php $this->renderNavigation( 'SEARCH' ); ?>
+				
 			</div>
 		</div>
 		<div id="footer" role="contentinfo"<?php $this->html( 'userlangattributes' ) ?>>

@@ -126,9 +126,6 @@ $wgDefaultSkin = "vector";
 
 # Enabled skins.
 # The following skins were automatically enabled:
-require_once "$IP/skins/CologneBlue/CologneBlue.php";
-require_once "$IP/skins/Modern/Modern.php";
-require_once "$IP/skins/MonoBook/MonoBook.php";
 require_once "$IP/skins/Vector/Vector.php";
 
 

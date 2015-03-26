@@ -66,8 +66,10 @@ $GLOBALS['wgResourceModules']['skins.vector.styles'] = array(
 	'styles' => array(
 		'screen.less' => array( 'media' => 'screen' ),
 		'screen-hd.less' => array( 'media' => 'screen and (min-width: 982px)' ),
-	  'delsector-desktop.css' => array('media' => 'screen and (min-width: 1024px)')
-	),
+	  'delsector/css/search.css' => array('media' => 'screen'),
+	  'delsector/css/sidebar.css' => array('media' => 'screen and (min-width: 1024px)'),
+	  'delsector/css/tabs.css' => array('media' => 'screen and (min-width: 1024px)'),
+	  'delsector/css/content.css' => array('media' => 'screen and (min-width: 1024px)')),
 	'remoteSkinPath' => 'Vector',
 	'localBasePath' => __DIR__,
 );
@@ -76,6 +78,9 @@ $GLOBALS['wgResourceModules']['skins.vector.js'] = array(
 	'scripts' => array(
 		'collapsibleTabs.js',
 		'vector.js',
+	  'delsector/js/App.js',
+	  'delsector/js/component/Component.js',
+    'delsector/js/component/Toolbox.js'
 	),
 	'position' => 'top',
 	'dependencies' => array(

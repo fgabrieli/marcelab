@@ -23,7 +23,7 @@ function GoogleCSE() {
 
 # The callback function for converting the input text to HTML output
 function renderGoogleCSE($input) {
-  $output='<gcse:search></gcse:search>';//google code end here
+  $output='<gcse:search data-enableAutoComplete="true" data-autoCompleteMatchType="prefix" data-autoCompleteMaxCompletions="25" data-autoCompleteValidLanguages="es"></gcse:search>';//google code end here
 
   return $output;
 }
