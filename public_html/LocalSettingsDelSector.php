@@ -61,8 +61,26 @@ $wgGroupPermissions['*'] = $defaultPerms;
 
 // Editors
 $editorPerms = array (
-    'read' => 1
+  'move' => 1,
+  'move-subpages' => 1,
+  'move-rootuserpages' => 1,
+  'move-categorypages' => 1,
+  'movefile' => 1,
+  'read' => 1,
+  'edit' => 1,
+  'createpage' => 1,
+  'delete' => 1,
+  'undelete' => 1,
+  'createtalk' => 1,
+  'writeapi' => 1,
+  'upload' => 1,
+  'reupload' => 1,
+  'reupload-shared' => 1,
+  'minoredit' => 1,
+  'purge' => 1,
+  'sendemail' => 1
 );
+
 $wgGroupPermissions['editor'] = array_merge($defaultPerms, $editorPerms);
 
 // Sysop
@@ -78,5 +96,8 @@ $sysopPerms = array (
     'undelete' => 1
 );
 $wgGroupPermissions['sysop'] = array_merge($defaultPerms, $editorPerms, $sysopPerms);
+
+
+$wgFooterIcons = array();
 
 ?>

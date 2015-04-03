@@ -1,4 +1,247 @@
 
+Trabajando en Plantilla:Fuentes - sin terminar todavia
+
+
+
+{{#foreach: $n$ | #[{{{link$n$}}} {{{anchor$n$}}}] }}<br />
+
+#[http://delsectorsocial.org/index.php?title=Persona_usuaria_de_los_servicios_de_salud_mental Persona usuaria de los servicios de salud mental]
+
+
+- terminos recomendados los links apuntan siempre a la wiki
+
+- en terminos recomendados, y fuentes ponerles bullets y no numeros
+
+- Campañas relacionadas: lista de links y descripciones
+The R-word, es una campaña americana (en inglés) en la que se busca que las personas adhieran y firmen un petitorio: "Adhiero y apoyo la eliminación de la palabra con R del discurso cotidiano, y promuevo la aceptación y la inclusión de las personas con discapacidad intelectual"
+
+- sacar las flechas de los links
+
+
+
+
+Fuentes:
+
+<noinclude>
+{{
+Fuentes | 
+frase 1,link1 | 
+frase 2,link2
+}}
+</noinclude>
+
+
+
+Listado de links:
+
+{{
+ListadoLinks |
+w,l
+}}
+
+
+
+
+3 templates:
+
+1. Alternativas
+2. Fuentes
+3. Relacionados
+4. Categorias
+
+
+
+
+- poner la palbra
+	poner frase "evitar su uso, ver recomendados"
+
+
+@fernandogabrieli, la fecha de cuando fue incluida la palabra me parece que no es muy relevante. Yo pondría solamente la palabra, pero si te parece poner un poco de la descripción, veamos como queda. Vemos y después nos fijamos si tenemos que rever el formato de descripción... Quizás vamos a tener que poner la frase "recomendados evitar su uso " al principio de todo, para que en esa pagina de resultados se vea antes de entrar en cada artículo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Armar los templates x separado usando: http://delsectorsocial.org/index.php?title=Protocolo_para_crear_entradas
+
+
+MediaWiki:Group-ninja (content: Ninjas)
+MediaWiki:Group-ninja-member (content: ninja)
+MediaWiki:Grouppage-ninja (content: Project:Ninjas)
+
+
+Administradores
+Editores
+Todos
+
+540x960
+360x640
+720x1280
+720x1280
+320x534
+480x800
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preguntas:
+
+[ ] En los links,  se pueden sacar las flechitas y que quede solo las palabras que sean el hipervínculo?
+
+Si, los sacamos
+
+
+[ ] En la sección de fuentes,  se podrá poner en el hipervínculo "open blank" para que los links se abran en hojas aparte y no se nos vayan los lectores!
+
+Si srta, lo hacemos
+
+
+[ ] Cuando quise hacer el listado para abajo,  tuve que poner el <br> porque sino me separaba cada ítem con "," como es que algunos "enters " reconoce y otros no?
+
+Me pasas el texto para verlo?
+
+
+[ ] Crear una página de inicio,  link al ensayo?
+
+Si claro, podemos apuntar Home a esa no? Necesito que me pases el nombre de la pagina que queres usar
+
+
+[ ] Crear una página de cómo crear una entrada y agregarla al sidebar
+
+Lo hacemos
+
+
+[ ] Puede ser que el logo en la wiki queda medio achatada,  no tan estilizado como es? Sabemos si nos pide un tamaño específico? Parecería que fuera cuadrado y el arbol es rectangular.
+
+Si, actualmente lo deje sin ajustar, pero ahora q vos me diste el definitivo, lo cambio :)
+
+
+[ ] Pedido para el diseñador,  podrá armar un pequeño manual de uso del logo,  del estilo de tamaños,  cual es el menor tamaño al que se puede llevar,  cuáles son los grosores de las líneas y tamaños de los círculos,  etc. Contarle que quedó el primero!  Si me lo puede pasar en Ai, png y jpg? No tengo actualmente los programas de diseño,  sino se lo pediría solo en Ai y yo lo paso
+
+Le consulto
+
+
+[ ] Que tipo de tipografía ,  o si me puede pasar algún nombre de la que crea que coincide con el logo. Estamos viendo si queda del sector social o otro nombre... Como lo ubicaria con respecto al logo?  Debajo,  de Costado, semicircular... Puede comenzar con del sector social aunque después lo cambiemos.
+
+Queres q le pida de agregar el nombre al logo y la tipografia?
+
+
+[ ] La URL de puede cambiar?  sacarle el index.php=?. Que la URL sea solamente www.delsectorsocial.org/Frase_ejemplo
+
+Tengo que verlo, calculo que si
+
+
+[ ] para adjuntar videos de YouTube o imágenes,  se podrá embeber el código?  igual con las imágenes. El código de las entradas es html? Quizás por el momento podemos insertar imágenes y video así por el código... Que te parece?
+Ahora salí de casa pero cuando llegue lo voy a probar!!!!
+
+Tengo que verlo, quizas podemos embeberlo, probaste directamente vos y no te anduvo?
+
+
+
+
+
+
+
+
+
+
+
+
+Para crear una pagina nueva:
+
+- En la barra de navegacion colocas:
+	http://delsectorsocial.org/index.php/<frase nueva con espacios>
+	
+- Para armar la pagina de ejemplo:
+	http://delsectorsocial.org/index.php/Frase Ejemplo
+
+- Credenciales
+	Usuario: Admin
+	Password: fjhu823
+	
+
+
+Poner el buscador en la sidebar izq
+
+
+Cada palabra:
+	Palabra
+	Descripcion
+	Terminos Alternativos
+	Fuentes
+	#4 Del lado derecho poner Terminos Relacionados <- template
+		- Sidebar derecha
+	
+	#1 Tags
+	#2 Imagenes o videos
+	#3 Foro
+
+
+Cuando no estas logueado:
+	- Remover Crear una cuenta
+	- Remover Acceder
+	- Remover Editar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Set logo.
 

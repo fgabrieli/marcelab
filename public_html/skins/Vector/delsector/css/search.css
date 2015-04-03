@@ -15,3 +15,22 @@
 #p-search #simpleSearch input:first-child {
   width: 90%;
 }
+
+/* search results */
+.mw-search-result-heading {
+  
+}
+
+.searchresult {
+  display: none;
+}
+
+.mw-search-result-data {
+  display: none;
+}
+
+.searchresults .mw-search-results li {
+  padding-bottom: 1.2em;
+  list-style: disc;
+  margin-left: 1vw;
+}
