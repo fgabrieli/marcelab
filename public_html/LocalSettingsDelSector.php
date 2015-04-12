@@ -19,6 +19,8 @@ require_once "$IP/extensions/google-cse.php";
 
 require_once "$IP/extensions/WikiEditor/WikiEditor.php";
 
+require_once "$IP/extensions/RecentPages/RecentPages.php";
+
 // enable user js and css
 
 $wgAllowUserJs  = true;
@@ -99,5 +101,13 @@ $wgGroupPermissions['sysop'] = array_merge($defaultPerms, $editorPerms, $sysopPe
 
 
 $wgFooterIcons = array();
+
+// Open external links in a new tab
+$wgExternalLinkTarget = '_blank';
+
+$wgNamespacesToBeSearchedDefault = array();
+
+// Exclude the following pages from the Recent pages list (extension for showing recent changes on pages)
+$GLOBALS['wgExcludeFromRecentPages'] = array('Cambios', 'Prueba');
 
 ?>

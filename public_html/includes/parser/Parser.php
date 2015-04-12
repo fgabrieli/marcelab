@@ -3750,7 +3750,10 @@ class Parser {
 			}
 		}
 
+		// fgabriel: fix to avoid php warnings. I am not going to change the extension.
+		$oldValue  = error_reporting(0);
 		$result = call_user_func_array( $callback, $allArgs );
+		error_reporting($oldValue);
 
 		# The interface for function hooks allows them to return a wikitext
 		# string or an array containing the string and any flags. This mungs

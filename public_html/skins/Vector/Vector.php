@@ -67,9 +67,10 @@ $GLOBALS['wgResourceModules']['skins.vector.styles'] = array(
 		'screen.less' => array( 'media' => 'screen' ),
 		'screen-hd.less' => array( 'media' => 'screen and (min-width: 982px)' ),
 	  'delsector/css/search.css' => array('media' => 'screen'),
-	  'delsector/css/sidebar.css' => array('media' => 'screen and (min-width: 1024px)'),
-	  'delsector/css/tabs.css' => array('media' => 'screen and (min-width: 1024px)'),
-	  'delsector/css/content.css' => array('media' => 'screen and (min-width: 1024px)')),
+	  'delsector/css/sidebar.css' => array('media' => 'screen'),
+	  'delsector/css/tabs.css' => array('media' => 'screen'),
+	  'delsector/css/content.css' => array('media' => 'screen'),
+	  'delsector/css/templates/fuentes.css' => array('media' => 'screen')),
 	'remoteSkinPath' => 'Vector',
 	'localBasePath' => __DIR__,
 );
