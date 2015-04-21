@@ -679,11 +679,11 @@
 	"loginreqpagetext": "Debes $1 para ver otras páginas.",
 	"accmailtitle": "Se ha enviado la contraseña",
 	"accmailtext": "Se ha enviado a $2 una contraseña generada aleatoriamente para [[User talk:$1|$1]]. Puede cambiarse en la página [[Special:ChangePassword|destinada para ello]] después de haber iniciado sesión.",
-	"newarticle": "{{Template:PalabraInexistente}}",
-	"newarticletext": "{{Template:PalabraInexistente}}",
+	"newarticle": "(Nuevo)",
+	"newarticletext": "Has seguido un enlace a una página que aún no existe.\nPara crear esta página, escribe en el campo a continuación. Para más información, consulta la [$1 página de ayuda].\nSi llegaste aquí por error, vuelve a la página anterior.",
 	"anontalkpagetext": "---- ''Esta es la página de discusión de un usuario anónimo que aún no ha creado una cuenta, o no la usa. Por lo tanto, tenemos que usar su dirección IP para identificarlo. Una dirección IP puede ser compartida por varios usuarios. Si eres un usuario anónimo y crees que se han dirigido a ti con comentarios improcedentes, por favor [[Special:UserLogin/signup|crea una cuenta]] o si ya la tienes [[Special:UserLogin|identifícate]] para evitar confusiones futuras con otros usuarios anónimos.''",
-	"noarticletext": "{{Template:PalabraInexistente}}",
-	"noarticletext-nopermission": "{{Template:PalabraInexistente}}",
+	"noarticletext": "En este momento no hay texto en esta página.\nPuedes [[Special:Search/{{PAGENAME}}|buscar el título de esta página]] en otras páginas,\n<span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} buscar en los registros],\no [{{fullurl:{{FULLPAGENAME}}|action=edit}} editar esta página]</span>.",
+	"noarticletext-nopermission": "{{MediaWiki:Noarticletext-Nopermission}}",
 	"missing-revision": "La revisión n.º $1 de la página llamada «{{FULLPAGENAME}}» no existe.\n\nNormalmente esto ocurre cuando se sigue un enlace de historial obsoleto que apunta a una página ya borrada.\nPuedes encontrar detalles en el [{{fullurl:{{#Special:Log}}/delete|page={{FULLPAGENAMEE}}}} registro de borrados].",
 	"userpage-userdoesnotexist": "La cuenta de usuario «<nowiki>$1</nowiki>» no está registrada. Por favor comprueba si quieres crear o editar esta página.",
 	"userpage-userdoesnotexist-view": "La cuenta de usuario «$1» no está registrada.",
@@ -953,7 +953,7 @@
 	"searchall": "todos",
 	"showingresults": "Abajo se {{PLURAL:$1|muestra '''1''' resultado|muestran hasta '''$1''' resultados}} comenzando por el n.º '''$2'''.",
 	"showingresultsinrange": "Abajo se muestran hasta {{PLURAL:$1|<strong>1</strong> resultado|<strong>$1</strong> resultados}} en el rango #<strong>$2</strong> hasta #<strong>$3</strong>.",
-	"search-nonefound": "{{Template:PalabraInexistente}}",
+	"search-nonefound": "No hay resultados que cumplan los criterios de búsqueda.",
 	"powersearch-legend": "Búsqueda avanzada",
 	"powersearch-ns": "Buscar en los espacios de nombres:",
 	"powersearch-togglelabel": "Seleccionar:",
@@ -3222,3 +3222,4 @@
 	"default-skin-not-found-row-enabled": "* <code>$1</code> / $2 (activado)",
 	"default-skin-not-found-row-disabled": "* <code>$1</code> / $2 ('''desactivado''')"
 }
+
