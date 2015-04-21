@@ -21,6 +21,8 @@ require_once "$IP/extensions/WikiEditor/WikiEditor.php";
 
 require_once "$IP/extensions/RecentPages/RecentPages.php";
 
+require_once "$IP/extensions/CategoryTree/CategoryTree.php";
+
 // enable user js and css
 
 $wgAllowUserJs  = true;

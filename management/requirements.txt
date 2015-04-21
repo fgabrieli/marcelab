@@ -1,10 +1,6 @@
 
-If page title includes %word%
-  Don't show it
-  
-  
-  
-En este momento no hay texto en esta página.
-Puedes [[Special:Search/{{PAGENAME}}|buscar el título de esta página]] en otras páginas,
-<span class="plainlinks">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} buscar en los registros],
-o [{{fullurl:{{FULLPAGENAME}}|action=edit}} editar esta página]</span>.
+where is the page for this text?
+
+
+mensaje para palabras inexistentes:
+
