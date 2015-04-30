@@ -82,7 +82,8 @@ $GLOBALS['wgResourceModules']['skins.vector.js'] = array(
 	  'delsector/js/App.js',
 	  'delsector/js/component/Component.js',
     'delsector/js/component/Toolbox.js',
-	  'delsector/js/component/SpecialSearch.js'
+	  'delsector/js/component/SpecialSearch.js',
+	  'delsector/js/component/Head.js'
 	),
 	'position' => 'top',
 	'dependencies' => array(

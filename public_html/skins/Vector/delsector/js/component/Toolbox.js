@@ -1,4 +1,4 @@
-ds.Component.Toolbox = $.extend(ds.Component, {}, {
+ds.Component.Toolbox = $.extend(true, {}, ds.Component, {
  init : function() {
   // hide the toolbox, we won't use it
   this.hide();
