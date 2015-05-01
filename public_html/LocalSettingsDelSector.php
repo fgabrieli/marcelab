@@ -23,6 +23,8 @@ require_once "$IP/extensions/RecentPages/RecentPages.php";
 
 require_once "$IP/extensions/CategoryTree/CategoryTree.php";
 
+require_once "$IP/extensions/Renameuser/Renameuser.php";
+
 // enable user js and css
 
 $wgAllowUserJs  = true;
@@ -82,7 +84,8 @@ $editorPerms = array (
   'reupload-shared' => 1,
   'minoredit' => 1,
   'purge' => 1,
-  'sendemail' => 1
+  'sendemail' => 1,
+  'upload' => 1
 );
 
 $wgGroupPermissions['editor'] = array_merge($defaultPerms, $editorPerms);
@@ -97,7 +100,8 @@ $sysopPerms = array (
     'block' => 1,
     'createaccount' => 1,
     'delete' => 1,
-    'undelete' => 1
+    'undelete' => 1,
+    'renameuser' => 1
 );
 $wgGroupPermissions['sysop'] = array_merge($defaultPerms, $editorPerms, $sysopPerms);
 
@@ -112,4 +116,13 @@ $wgNamespacesToBeSearchedDefault = array();
 // Exclude the following pages from the Recent pages list (extension for showing recent changes on pages)
 $GLOBALS['wgExcludeFromRecentPages'] = array('Cambios', 'Prueba');
 
+
+// Set the place where all pages will point to and remove "index.php" from the url
+$wgScriptPath = "";
+$wgArticlePath = "/frase/$1";
+$wgUsePathInfo = true;
+
+// Image uploads
+$wgUploadPath = "$wgScriptPath/images";
+$wgEnableUploads = true;
 ?>
