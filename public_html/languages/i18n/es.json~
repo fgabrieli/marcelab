@@ -236,7 +236,7 @@
 	"hidden-category-category": "Categorías ocultas",
 	"category-subcat-count": "{{PLURAL:$2|Esta categoría solo contiene la siguiente subcategoría.|Esta categoría contiene {{PLURAL:$1|la siguiente subcategoría|las siguientes $1 subcategorías}}, de un total de $2.}}",
 	"category-subcat-count-limited": "Esta categoría contiene {{PLURAL:$1|la siguiente subcategoría|las siguientes $1 subcategorías}}.",
-	"category-article-count": "{{PLURAL:$2|Esta categoría incluye solamente la siguiente página.|{{PLURAL:$1|La siguiente página página pertenece|}}}}",
+	"category-article-count": "{{PLURAL:$2|Esta categoría incluye solamente la siguiente página.|{{PLURAL:$1|La siguiente página página pertenece|Se listan $1 páginas.}}}}",
 	"category-article-count-limited": "{{PLURAL:$1|La siguiente página pertenece|Las siguientes $1 páginas pertenecen}} a esta categoría.",
 	"category-file-count": "{{PLURAL:$2|Esta categoría contiene solamente el siguiente archivo.|{{PLURAL:$1|El siguiente archivo pertenece|Los siguientes $1 archivos pertenecen}} a esta categoría, de un total de $2.}}",
 	"category-file-count-limited": "{{PLURAL:$1|El siguiente fichero pertenece|Los siguientes $1 ficheros pertenecen}} a esta categoría.",

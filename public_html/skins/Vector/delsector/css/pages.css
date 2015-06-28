@@ -1,0 +1,15 @@
+/* .mw-logline-delete { */
+/*   display: none; */
+/* } */
+
+div.mw-warning-with-logexcerpt {
+  border: none;
+}
+
+#p-namespaces {
+  display: none;
+}
+
+#mw-pages h2 {
+  display: none;
+}

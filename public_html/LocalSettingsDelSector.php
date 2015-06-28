@@ -25,6 +25,22 @@ require_once "$IP/extensions/CategoryTree/CategoryTree.php";
 
 require_once "$IP/extensions/Renameuser/Renameuser.php";
 
+require_once "$IP/extensions/MaintenanceShell/MaintenanceShell.php";
+
+require_once "$IP/extensions/Nuke/Nuke.php";
+
+require_once "$IP/extensions/FacebookLikeButton/FacebookLikeButton.php";
+
+
+// Del sector social extensions
+
+require_once "$IP/extensions/DelSector/RedirectDeletedPages.php";
+
+require_once "$IP/extensions/DelSector/CategoryManipulator.php";
+
+require_once "$IP/extensions/DelSector/RestrictActionByGroup.php";
+
+
 // enable user js and css
 
 $wgAllowUserJs  = true;
@@ -48,62 +64,76 @@ function removeGroups($groups) {
   }
 }
 // XXX: delete 'user' group and migrate all of them to the 'editor' group
-removeGroups(array('bot', 'bureaucrat', 'developer', 'autoconfirmed'));
+removeGroups(array('user', 'bot', 'bureaucrat', 'developer', 'autoconfirmed'));
 
 
 // User Groups and Permissions
 
 // Default perms (for all users)
 $defaultPerms = array(
-    'read' => 1,
-    'createtalk' => 1,
-    'viewmywatchlist' => 1,
-    'editmywatchlist' => 1,
-    'viewmyprivateinfo' => 1,
-    'editmyprivateinfo' => 1,
-    'editmyoptions' => 1
+  'read' => true,
+  'createtalk' => true,
+  'viewmywatchlist' => true,
+  'editmywatchlist' => true,
+  'viewmyprivateinfo' => true,
+  'editmyprivateinfo' => true,
+  'editmyoptions' => true,
+  'createaccount' => false
 );
+
 $wgGroupPermissions['*'] = $defaultPerms;
+
+
+// Registered Users
+$userPerms = array(
+    'createpage' => true,
+    'edit' => true
+);
+
+$wgGroupPermissions['user'] = array_merge($defaultPerms, $userPerms);
+
 
 // Editors
 $editorPerms = array (
-  'move' => 1,
-  'move-subpages' => 1,
-  'move-rootuserpages' => 1,
-  'move-categorypages' => 1,
-  'movefile' => 1,
-  'read' => 1,
-  'edit' => 1,
-  'createpage' => 1,
-  'delete' => 1,
-  'undelete' => 1,
-  'createtalk' => 1,
-  'writeapi' => 1,
-  'upload' => 1,
-  'reupload' => 1,
-  'reupload-shared' => 1,
-  'minoredit' => 1,
-  'purge' => 1,
-  'sendemail' => 1,
-  'upload' => 1
+  'move' => true,
+  'move-subpages' => true,
+  'move-rootuserpages' => true,
+  'move-categorypages' => true,
+  'movefile' => true,
+  'read' => true,
+  'edit' => true,
+  'createpage' => true,
+  'delete' => true,
+  'undelete' => true,
+  'createtalk' => true,
+  'writeapi' => true,
+  'upload' => true,
+  'reupload' => true,
+  'reupload-shared' => true,
+  'minoredit' => true,
+  'purge' => true,
+  'sendemail' => true,
+  'upload' => true
 );
 
-$wgGroupPermissions['editor'] = array_merge($defaultPerms, $editorPerms);
+$wgGroupPermissions['editor'] = array_merge($userPerms, $editorPerms);
 
 // Sysop
 $sysopPerms = array (
-    'createpage' => 1,
-    'edit' => 1,
-    'userrights' => 1,
-    'userrights-interwiki' => 1,
-    'editinterface' => 1,
-    'block' => 1,
-    'createaccount' => 1,
-    'delete' => 1,
-    'undelete' => 1,
-    'renameuser' => 1
+    'createpage' => true,
+    'edit' => true,
+    'userrights' => true,
+    'userrights-interwiki' => true,
+    'editinterface' => true,
+    'block' => true,
+    'delete' => true,
+    'undelete' => true,
+    'renameuser' => true,
+    'maintenanceshell' => true,
+    'nuke' => true,
+    'deletedhistory' => true
 );
-$wgGroupPermissions['sysop'] = array_merge($defaultPerms, $editorPerms, $sysopPerms);
+$wgGroupPermissions['sysop'] = array_merge($editorPerms, $sysopPerms);
 
 
 $wgFooterIcons = array();

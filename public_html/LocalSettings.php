@@ -18,8 +18,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename = "marcelab";
-$wgMetaNamespace = "Marcelab";
+$wgSitename = "Del Sector Social";
+$wgMetaNamespace = "Del_Sector_Social";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -44,22 +44,22 @@ $wgLogo = "$wgScriptPath/resources/assets/wiki.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "no-reply@marcelab";
-$wgPasswordSender = "no-reply@marcelab";
+$wgEmergencyContact = "apache@delsectorsocial.org";
+$wgPasswordSender = "apache@delsectorsocial.org";
 
-$wgEnotifUserTalk = true; # UPO
-$wgEnotifWatchlist = true; # UPO
+$wgEnotifUserTalk = false; # UPO
+$wgEnotifWatchlist = false; # UPO
 $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "mysql";
-$wgDBserver = "127.0.0.1";
+$wgDBserver = "localhost";
 $wgDBname = "marcelab";
 $wgDBuser = "marcelab";
 $wgDBpassword = "marcelab";
 
 # MySQL specific settings
-$wgDBprefix = "mb";
+$wgDBprefix = "";
 
 # MySQL table options to use during installation or update
 $wgDBTableOptions = "ENGINE=InnoDB, DEFAULT CHARSET=utf8";
@@ -74,8 +74,8 @@ $wgMemCachedServers = array();
 ## To enable image uploads, make sure the 'images' directory
 ## is writable, then set this to true:
 $wgEnableUploads = false;
-$wgUseImageMagick = true;
-$wgImageMagickConvertCommand = "C:\\Program Files\\ImageMagick-6.8.9-Q16\\convert.exe";
+#$wgUseImageMagick = true;
+#$wgImageMagickConvertCommand = "/usr/bin/convert";
 
 # InstantCommons allows wiki to use images from http://commons.wikimedia.org
 $wgUseInstantCommons = false;
@@ -99,11 +99,11 @@ $wgShellLocale = "en_US.utf8";
 # Site language code, should be one of the list in ./languages/Names.php
 $wgLanguageCode = "es";
 
-$wgSecretKey = "d5fc08017004e7bf6b7e3f0f0a126b36651fa2ebf04d7e4c37ad4d20a4880ea8";
+$wgSecretKey = "9a65cb5b226d7c1083daef7097be6e55082fd70912cf8ae1edd7d142f80d1102";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "f2b338716bdd1e48";
+$wgUpgradeKey = "7a89965d67b48cbd";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
@@ -114,11 +114,7 @@ $wgRightsText = "";
 $wgRightsIcon = "";
 
 # Path to the GNU diff3 utility. Used for conflict resolution.
-$wgDiff3 = "c:\\cygwin\\bin\\diff3.exe";
-
-# The following permissions were set based on your choice in the installer
-$wgGroupPermissions['*']['createaccount'] = false;
-$wgGroupPermissions['*']['edit'] = false;
+$wgDiff3 = "/usr/bin/diff3";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
@@ -132,5 +128,5 @@ require_once "$IP/skins/Vector/Vector.php";
 # End of automatically generated settings.
 # Add more configuration options below.
 
-# delsectorsocial.org configuration
+# Local settings configuration for delsectorsocial.org
 require_once 'LocalSettingsDelSector.php';

@@ -70,7 +70,9 @@ $GLOBALS['wgResourceModules']['skins.vector.styles'] = array(
 	  'delsector/css/sidebar.css' => array('media' => 'screen'),
 	  'delsector/css/tabs.css' => array('media' => 'screen'),
 	  'delsector/css/content.css' => array('media' => 'screen'),
-	  'delsector/css/templates/fuentes.css' => array('media' => 'screen')),
+	  'delsector/css/pages.css' => array('media' => 'screen'),
+	  'delsector/css/createaccount.css' => array('media' => 'screen'),
+    'delsector/css/templates/fuentes.css' => array('media' => 'screen')),
 	'remoteSkinPath' => 'Vector',
 	'localBasePath' => __DIR__,
 );
