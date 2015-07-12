@@ -40,6 +40,8 @@ require_once "$IP/extensions/DelSector/CategoryManipulator.php";
 
 require_once "$IP/extensions/DelSector/RestrictActionByGroup.php";
 
+require_once "$IP/extensions/DelSector/BasicRevModeration/BasicRevModeration.php";
+
 
 // enable user js and css
 
